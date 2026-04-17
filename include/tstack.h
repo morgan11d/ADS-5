@@ -9,6 +9,7 @@ class TStack {
 private:
     T data[size];
     int topIndex;
+    
 public:
     TStack() : topIndex(-1) {}
 
@@ -42,4 +43,4 @@ public:
     }
 };
 
-#endif  
+#endif  // INCLUDE_TSTACK_H_
